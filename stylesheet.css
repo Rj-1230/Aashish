@@ -1,13 +1,31 @@
+@font-face {
+    font-family: Branda;
+    src: url(fonts/Branda.ttf);
+    
+  }
 #heading{
     text-align:center;
-    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+}
+.name{
+    border-radius:80%;
+    width:60%;
+    margin:0px auto;
+}
+
+.social_icons{
+    width:15%;
+    height:100px;
+    border-radius:50%;
 }
 
 ul{
+    list-style-type: none;
+    font-family:Branda;
     text-align:center;
     line-height: 2em;
-    font-size:20px;
-}
+    font-size:30px;
+    font-weight:bold;
+    }
 #self{
     border-radius:50%;
     height:40%;
@@ -26,7 +44,14 @@ ul{
     width:100%;
   }
 
-  
+#menu{
+    background-color: lavenderblush;
+}
+    
+    #bio{
+        background-color: lightcyan;
+    } 
+
   @media only screen and (min-width: 992px) {
     #menu {
       background-color: lavender;
@@ -36,11 +61,12 @@ ul{
       position:fixed;
       top:0px;
       left:0px;
+      overflow:auto;
     }
     
     #bio{
         width: 75%;
-        
+        padding: 10px ;
         float:right;
         background-color: lightgreen;
 
