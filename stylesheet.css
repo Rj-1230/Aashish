@@ -1,0 +1,51 @@
+#heading{
+    text-align:center;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+ul{
+    text-align:center;
+    line-height: 2em;
+    font-size:20px;
+}
+#self{
+    border-radius:50%;
+    height:40%;
+    width:75%;
+    display:block;
+    margin: 50px auto;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    width:100%;
+  }
+
+  
+  @media only screen and (min-width: 992px) {
+    #menu {
+      background-color: lavender;
+      width:25%;
+      height:100%;
+      float:left;
+      position:fixed;
+      top:0px;
+      left:0px;
+    }
+    
+    #bio{
+        width: 75%;
+        
+        float:right;
+        background-color: lightgreen;
+
+
+    }
+  }
+
+ 
